@@ -243,13 +243,13 @@ e.g
       How Margin Collapsing Works:
        When two adjacent vertical margins meet, the following rules apply:
        Two adjacent block-level elements (such as two <div>s or a <p> followed by a <div>) will have their vertical margins collapse into one margin.
-       The larger of the two margins is kept, and the smaller one is discarded. If both margins are equal, the total margin between the two elements is just the value of that single margin.
+       The larger of the two margins is kept, and the smaller one is discarded. If both margins are equal,the total margin between the two elements is just the value of that single margin.
        Collapsing doesn't happen with horizontal margins, only vertical margins (top and bottom).
 
   19. Padding :
       Padding in CSS is the space inside an element, between the content of the element and its border. 
        It is part of the CSS box model and allows you to control the space within the element, essentially creating a buffer between the element's content (such as text, images, etc.) and the edge of the element's border.
-       Padding is used to create breathing room around the content inside an element, ensuring that the content doesn't touch the border directly, making the design cleaner and more visually appealing.
+       Padding is used to create breathing room around the content inside an element,ensuring that the content doesn't touch the border directly,making the design cleaner and more visually appealing.
 
       Key Points About Padding:
         1.Inside the Element: Padding is the space inside an element’s border. It does not affect the layout of other elements but affects how content is displayed within the element.
