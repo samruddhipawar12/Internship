@@ -235,14 +235,14 @@ e.g
 
  18. margin collapsing:
          Margin Collapsing in CSS?
-           Margin collapsing refers to a behavior in CSS where vertical margins of adjacent block-level elements (such as <div>, <p>, etc.) collapse into a single margin. 
+           Margin collapsing refers to a behavior in CSS where vertical margins of adjacent block-level elements collapse into a single margin. 
            The larger margin of the two is retained, and the smaller margin is ignored. This happens when elements are in the same block formatting context and are next to each other, either vertically or at the top or bottom of a parent element.
            This can lead to what might seem like unexpected behavior when elements with margins are stacked together.
                
            
       How Margin Collapsing Works:
        When two adjacent vertical margins meet, the following rules apply:
-       Two adjacent block-level elements (such as two <div>s or a <p> followed by a <div>) will have their vertical margins collapse into one margin.
+       Two adjacent block-level elements will have their vertical margins collapse into one margin.
        The larger of the two margins is kept, and the smaller one is discarded. If both margins are equal,the total margin between the two elements is just the value of that single margin.
        Collapsing doesn't happen with horizontal margins, only vertical margins (top and bottom).
 
