@@ -1,5 +1,7 @@
 #css
  -->introduction to css(cascading style sheet)
+
+ 
  1.Styling
  - today we learnt that how to style web page
  - there are 3 ways of styling:
