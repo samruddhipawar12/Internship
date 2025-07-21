@@ -248,12 +248,12 @@ e.g
 
   19. Padding :
       Padding in CSS is the space inside an element, between the content of the element and its border. 
-       It is part of the CSS box model and allows you to control the space within the element, essentially creating a buffer between the element's content (such as text, images, etc.) and the edge of the element's border.
+       It is part of the CSS box model and allows you to control the space within the element, essentially creating a buffer between the element's content and the edge of the element's border.
        Padding is used to create breathing room around the content inside an element,ensuring that the content doesn't touch the border directly,making the design cleaner and more visually appealing.
 
       Key Points About Padding:
         1.Inside the Element: Padding is the space inside an element’s border. It does not affect the layout of other elements but affects how content is displayed within the element.
         2.Transparent: Like margins, padding is transparent and does not have any color or background. It simply creates spacing.
-        3.Applies to All Elements: Padding can be applied to any block-level or inline element, although it's more commonly used with block-level elements like <div>, <section>, and form elements.
-        4.Separate from Margins: Padding affects the internal space of an element, while margin controls the external space (i.e., space between the element and its neighboring elements).
+        3.Applies to All Elements: Padding can be applied to any block-level or inline element, although it's more commonly used with block-level elements like form elements.
+        4.Separate from Margins: Padding affects the internal space of an element, while margin controls the external space.
 
